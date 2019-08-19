@@ -1,30 +1,30 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-  <h1>
+  <h1 class="font-weight-lighter">
     {{ title }}
   </h1>
 </div>
 
 <div class="row">
-  <div class="col align-self-center">
+  <div class="col-sm-3 offset-md-3">
     <div class="input-group mb-3">
       <div class="input-group-prepend">
-        <span class="input-group-text" id="inputGroup-sizing-default">Input: </span>
+        <span class="input-group-text font-weight-lighter" id="inputGroup-sizing-default">Input: </span>
       </div>
-      <input type="text" id="input" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      <input type="text" id="input" class="form-control font-weight-lighter" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
     </div>
 
     <button id="p1-subscribe" class="btn btn-dark" (click)="subscribeP1()"> Subscribe </button>
-    <button id="p1-unsubscribe" class="btn btn-dark" (click)="unsubscribeP1()"> Unsubscribe </button>
-    <p id="p1"></p>
+    <button id="p1-unsubscribe" class="btn btn-outline-dark" style="margin-left: 5%" (click)="unsubscribeP1()"> Unsubscribe </button>
+    <p id="p1" class="font-weight-lighter"><b>P: </b></p>
 
     <button id="p2-subscribe" class="btn btn-dark" (click)="subscribeP2()"> Subscribe </button>
-    <button id="p2-unsubscribe" class="btn btn-dark" (click)="unsubscribeP2()"> Unsubscribe </button>
-    <p id="p2"></p>
+    <button id="p2-unsubscribe" class="btn btn-outline-dark" style="margin-left: 5%" (click)="unsubscribeP2()"> Unsubscribe </button>
+    <p id="p2" class="font-weight-lighter"><b>P: </b></p>
 
     <button id="p3-subscribe" class="btn btn-dark" (click)="subscribeP3()"> Subscribe </button>
-    <button id="p3-unsubscribe" class="btn btn-dark" (click)="unsubscribeP3()"> Unsubscribe </button>
-    <p id="p3"></p>
+    <button id="p3-unsubscribe" class="btn btn-outline-dark" style="margin-left: 5%" (click)="unsubscribeP3()"> Unsubscribe </button>
+    <p id="p3" class="font-weight-lighter"><b>P: </b></p>
   </div>
 </div>
 
